@@ -1,0 +1,10 @@
+.venv/
+.env
+# separate project living in this folder — not part of the dashboard
+ai-consulting-site/
+# internal JPMC compliance document — kept local, never published
+ETF's Exempt from Preclearance.pdf
+data/cache/
+data/my_portfolio.json
+__pycache__/
+*.pyc

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard",
+      "runtimeExecutable": ".venv/bin/streamlit",
+      "runtimeArgs": ["run", "dashboard.py", "--server.headless", "true", "--server.port", "8501"],
+      "port": 8501
+    },
+    {
+      "name": "ai-consulting-site",
+      "runtimeExecutable": ".venv/bin/python3",
+      "runtimeArgs": ["-m", "http.server", "8747", "--directory", "ai-consulting-site"],
+      "port": 8747
+    }
+  ]
+}
